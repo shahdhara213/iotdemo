@@ -1,0 +1,104 @@
+<html>
+<head>
+	<title>IoT</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">App Logo</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="#">Alerts</a></li>
+      <li><a href="#">Orders</a></li>
+      <li><a href="#">Inventory</a></li>
+      <li><a href="#">Assets</a></li>
+      <li><a href="#">Login</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container-fluid" id="body1">
+	<div class="row">
+		<div class="container-fluid col-lg-8">
+			<div class="row">
+			<div class="col-lg-12 text">TRACK ORDER</div>
+			</div>
+			<div class="col-lg-12 track"></div>
+			<div class="row">
+			<div class="col-lg-12 text">FUEL STATUS</div>
+			</div>
+			<div class="col-lg-12 fuel"></div>
+		</div>
+		<div class="container-fluid col-lg-4">
+			<div class="row">
+				<div class="text1">ALERTS</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 alert1"></div>
+				<div class="col-lg-12 alert2"></div>
+				<div class="col-lg-12 alert3"></div>
+				<div class="col-lg-12 alert4"></div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+<style type="text/css">
+	#body1{
+		background-color: rgb(121,121,121);
+		float: left;
+		width: 100%;
+		color: white;
+	}
+	.track{
+		background-color: red;
+		height: 48%;
+	}
+	.fuel{
+		background-color: blue;
+		height: 43%;
+		margin-bottom: 1%;
+	}
+	.alert2 , .alert3 , .alert4{
+		height: 23%;
+		margin-top: 3%;
+	}
+	.alert1{
+		height : 23%;
+		background-color: aqua;
+	}
+	.alert2{
+		background-color: white;
+	}
+	.alert3{
+		background-color: black;
+	}
+	.alert4{
+		background-color: yellow;
+	}
+	nav {
+		background-color: rgb(215,215,215); 
+	    color: black;
+	}
+	.navbar{
+		margin-bottom: 0px;
+	}
+	.text{
+		margin-top: 3%;
+	}
+	.text1{
+		margin-top: 6%;
+	}
+	.nav{
+		float: right;
+		position: relative;
+	}
+	.row{
+		margin-right: -10px;
+	}
+</style>
